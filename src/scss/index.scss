@@ -1,3 +1,29 @@
+@import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto:wght@100;400&display=swap");
+
+@import "toolbar";
+@import "table";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  user-select: none;
+}
 body {
   background-color: rgb(87, 119, 108);
+
+  font: size 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.crypto {
+  display: flex;
+  height: 70vh;
+  width: 50vw;
+  background: rgb(145, 182, 136);
+  border-radius: 1em;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }

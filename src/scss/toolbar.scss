@@ -1,0 +1,50 @@
+.crypto_toolbar {
+  position: relative;
+  height: 97%;
+  width: 30%;
+  background: rgb(231, 233, 218);
+  margin: 10px;
+  padding: 15px 20px;
+  .box {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    .input {
+      width: 70%;
+      height: 40px;
+      background-color: rgb(179, 187, 206);
+
+      padding-left: 5px;
+      border-bottom: rgb(134, 134, 148) solid 3px;
+      opacity: 0.5;
+      outline: none;
+      line-height: 40px;
+      &:hover {
+        opacity: 1;
+        border-bottom: rgb(56, 118, 175) solid 3px;
+      }
+      &:focus {
+        opacity: 1;
+
+        border-bottom: rgb(26, 80, 131) solid 3px;
+      }
+    }
+
+    .select {
+      height: 40px;
+      outline: none;
+      background-color: rgb(194, 194, 216);
+      border: none;
+      border-bottom: 3px solid blue;
+    }
+  }
+  .output {
+    margin-top: 20px;
+    min-height: 70px;
+    width: 100%;
+    line-height: 70px;
+    font-size: 20px;
+    padding: 0 5px;
+    overflow-wrap: break-word;
+  }
+}
