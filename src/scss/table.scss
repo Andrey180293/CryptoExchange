@@ -1,0 +1,39 @@
+.crypto_table {
+  height: 97%;
+  width: 70%;
+  background: rgb(165, 173, 118);
+  margin: 10px;
+
+  &-component {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(140, 197, 83);
+    border: black 1px solid;
+    border-radius: 5px;
+    .cell {
+      border-right: solid 1px black;
+      height: 100%;
+      font-size: 15px;
+      padding: 15px 5px;
+    }
+    .icon {
+      width: 10%;
+    }
+    .name {
+      width: 15%;
+    }
+    .fullName {
+      width: 25%;
+    }
+    .price {
+      width: 20%;
+    }
+    .volume {
+      border: none;
+    }
+  }
+  .header {
+    font-size: 28px;
+  }
+}
